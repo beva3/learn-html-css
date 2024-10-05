@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:rgba(148, 212, 128, 0.877);
+    font-family:'Courier New', Courier, monospace;
+}
+
+body{
+    min-height: 100vh;
+    background: url("./img/Imperial\ Eagle.jpg") no-repeat;
+    background-size: cover;
+    background-position:center;
+
+    display:flex;
+    flex-direction:colum;
+    align-items:center;
+    justify-content:center;
+}
+
+.box-main{
+    border:1px solid rgba(190, 182, 182, 0.445);
+    /* border-radius:10px; */
+    /* box-shadow:0 0 8px rgb(230, 126, 230); */
+    width:60vw;
+    height: 400px;
+
+    padding:10px 20px;
+}
+
+.head{
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.paragraphe{
+    margin-bottom: 40px;
+    font-size:1.6rem;
+    color: chartreuse;
+}
+
+button{
+    height:2rem;
+    width:100%;
+    border:none;
+    border-radius:9px;
+    outline:noen;
+    background-color:rgba(29, 32, 224, 0.603);
+}
+button a{
+    font-size:1.2rem;
+    font-weight:bold;
+    text-decoration:none;
+    color:white;
+}
